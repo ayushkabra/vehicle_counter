@@ -1,0 +1,25 @@
+Approach to the model 
+The vehicle counting system I built is made up of three main components: a detector, tracker and counter. The detector identifies 
+vehicles in a given frame of video and returns a list of bounding boxes around the vehicles to the tracker. The tracker uses the
+ bounding boxes to track the vehicles in subsequent frames. The detector is also used to update the trackers periodically to ensure 
+that they are still tracking the vehicles correctly. The counter counts vehicles when they leave the frame or makes use of a counting 
+line drawn across a road. Algorithm Used here is BackgroundSubtractorMOG.
+
+
+Why this model
+Computer Vision (CV) had been on my list of things to learn for a long time so I decided to use the opportunity 
+to learn it. A vehicle counting system, as you might have already inferred, is a system that counts vehicles on the road. 
+Why would you want to build one? Why would you want to count vehicles on the road? Here are some reasons:
+Traffic management and planning
+Traffic Control
+Parking
+
+
+What other model you could have used for the same?
+Their is no other answer as this seems to be the best possible model in my knowledge and if their is i would like to invest  
+my time in that and learn that too.
+
+Why your current model is better than other models?
+First of all the code is not too long and it is written in such a manner that if someone invests some time in it he/she will be
+able to learn it quick and easy. The model covers all the aspect that were required and performs very efficiently in counting 
+the vehicles. 
